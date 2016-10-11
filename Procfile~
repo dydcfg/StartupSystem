@@ -1,1 +1,1 @@
-web: gunicorn ctTime --log-file -
+web: gunicorn ctTime:app --log-file -
